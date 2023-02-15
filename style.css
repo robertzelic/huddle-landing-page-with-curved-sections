@@ -49,6 +49,10 @@ fieldset {
   border: none;
 }
 
+address {
+  font-style: normal;
+}
+
 section h2 {
   padding-block: 4.6rem 1rem;
 }
@@ -242,11 +246,11 @@ section p {
   padding-block-end: 1rem;
 }
 
-.contact-list {
+.address {
   padding-block: 2.4rem 1rem;
 }
 
-.contact-list-item {
+.address > * {
   display: flex;
   gap: 1.4rem;
   align-items: center;
@@ -464,7 +468,7 @@ section p {
     padding-block-end: 1.6rem;
   }
 
-  .contact-list {
+  .address {
     padding-block: 1rem 4rem;
     font-size: 1rem;
   }
