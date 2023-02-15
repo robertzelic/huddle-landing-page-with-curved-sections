@@ -171,6 +171,11 @@ section p {
   line-height: initial;
 }
 
+.messages-sent .stats-desc {
+  max-inline-size: 5rem;
+  margin-inline: auto;
+}
+
 .stats-desc {
   opacity: 0.5;
 }
@@ -402,6 +407,11 @@ section p {
   .communities-formed .stats-number,
   .messages-sent .stats-number {
     font-size: 6rem;
+  }
+
+  .messages-sent .stats-desc {
+    max-inline-size: initial;
+    margin-inline: initial;
   }
 
   .stats-desc {
