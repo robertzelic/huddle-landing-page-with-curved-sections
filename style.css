@@ -244,6 +244,7 @@ section p {
 .footer-logo {
   max-inline-size: 13rem;
   padding-block-end: 1rem;
+  filter: brightness(0) invert(1);
 }
 
 .address {
